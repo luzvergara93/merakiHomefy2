@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HOME, MUEBLES, ADORNOS, VELAS, AROMAS, DECORACION, CASA"> 
+    <meta name="description" content="Meraki Homefy es un sitio donde encontrarás productos y asesoramiento para la decoración de tu hogar.">
+    <title>Meraki Homefy</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="js/javascript.js" defer> </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous" defer></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!-- Menu -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+        <div class="container-fluid">
+          <a class="navbar-brand a" href="index.html"><img src="imgs/logo.jpg" alt="logo" class="logoBack"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active a" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle a" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Productos
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item a" href="productos_aromas.html">Aromas</a></li>
+                  <li><a class="dropdown-item a" href="productos_deco.html">Deco</a></li>
+                  <li><a class="dropdown-item a" href="productos_espejos.html">Espejos</a></li>
+                  <li><a class="dropdown-item a" href="sale.html">SALE</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link a" href="contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link a" href="about.html">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link a" href="inspiration.html">Inspiration</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Buscar producto" aria-label="Search">
+              <button class="btn-gen" type="submit"><a class="search color--secondary" href="error.html"> Buscar </a></button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+  <!-- Breadcrumb -->
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item active bcrumb" aria-current="page">Home</li>
+        </ol>
+      </nav>
+<main>
+
+<!-- Banner  -->
+
+    <section>
+        <div class="banner">
+            <h1 class="title color--main">Meraki Homefy</h1>
+            <h2 class="h2 color--tertiary"> Decoración de interiores </h2>
+        </div>
+    </section>
+    <section>
+
+<!-- Carousel  -->
+
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <h3 class="h3 color--secondary"> Conocé nuestros productos</h3>
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imgs/foto2.jpg" class="d-block w-100" alt="deco">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>DECO</h5>
+              <p>Productos para la decoración de tu hogar</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="imgs/foto1.jpg" class="d-block w-100" alt="espejo">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>ESPEJOS</h5>
+              <p>Espejos modernos y estilo antiguo</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="imgs/foto3.jpg" class="d-block w-100" alt="aromas">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>AROMAS</h5>
+              <p>Difusores, velas aromáticas y mucho más.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- Videos y presupuesto  -->
+  <section class="contPres">
+    <div class="videos">
+      <video src=video/video1.mov controls> </video>
+    </div>
+    <div class="contPresupuesto">
+      <h4 class="h4 color--secondary"> Pedí tu presupuesto</h4>
+      <p class="presupuesto color--main"> Contanos cuál es la habitación de tu hogar que queres ambientar y te ayudamos a encontrar el diseño que cumpla con tus gustos y necesidades. <br>
+                Sabemos lo dificil que es llegar al diseño soñado, por eso estamos acá para ayudarte.  </p>
+            <button class="btn-gen"><a class="color--secondary" href="contacto.html"> Comenzar </a></button>
+    </div>
+  </section>
+</main>
+<!-- Footer -->
+<footer> 
+        <div>Suscribite a nuestro Newsletter!
+        <input type="email"> 
+        <button class="btn-gen"> Enviar </button>
+        </div>
+        <p> Encontranos en Instagram como @meraki.homefy </p>
+</footer>
+
+
+</body>
+</html>

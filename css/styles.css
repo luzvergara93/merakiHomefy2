@@ -1,0 +1,280 @@
+@import 'https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Raleway:wght@300;400;700&display=swap';
+.color--main {
+  color: #123D6B; }
+
+.color--secondary {
+  color: #BA985D; }
+
+.color--tertiary {
+  color: black; }
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: linear-gradient(to right, #E0D8BA, white); }
+  body .logoBack {
+    width: 80px; }
+  body .navbar .dropdown-menu {
+    background-color: #e9e2c9;
+    border: none;
+    opacity: 90%; }
+    body .navbar .dropdown-menu .dropdown-item:hover {
+      background-color: #BA985D; }
+  body .navbar .a, body .navbar .a:visited {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-right: 50px;
+    text-decoration: none; }
+  body .navbar .search {
+    text-decoration: none; }
+    body .navbar .search:hover {
+      color: #123D6B; }
+  body .bcrumb {
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    padding-left: 10px;
+    text-decoration: none;
+    color: #123D6B; }
+  body .btn-gen {
+    background-color: #123D6B;
+    color: #BA985D;
+    font-weight: bold;
+    font-size: 1rem;
+    height: 50px;
+    padding: 10px;
+    font-family: "Raleway", sans-serif;
+    border-radius: 8px;
+    border: none; }
+    body .btn-gen:hover {
+      background-color: #BA985D;
+      color: #123D6B; }
+  body main .banner {
+    background-image: url("../imgs/marmol.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    border: 2px solid #123D6B; }
+    body main .banner .title {
+      font-size: 8rem;
+      font-family: "Raleway", sans-serif;
+      animation-duration: 2s;
+      animation-name: aparecer; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+      @media (min-width: 517px) and (max-width: 980px) {
+        body main .banner .title {
+          font-size: 4rem; } }
+      @media (min-width: 351px) and (max-width: 516px) {
+        body main .banner .title {
+          font-size: 3rem; } }
+      @media (min-width: 0px) and (max-width: 350px) {
+        body main .banner .title {
+          font-size: 2rem; } }
+    body main .banner .h2 {
+      font-size: 5rem;
+      font-family: "Amatic SC", cursive; }
+      @media (min-width: 517px) and (max-width: 980px) {
+        body main .banner .h2 {
+          font-size: 3rem; } }
+      @media (min-width: 351px) and (max-width: 516px) {
+        body main .banner .h2 {
+          font-size: 2rem; } }
+      @media (min-width: 0px) and (max-width: 350px) {
+        body main .banner .h2 {
+          font-size: 1.5rem; } }
+  body main .d-block {
+    height: 700px;
+    object-fit: contain; }
+  body main .carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px; }
+  body main .h3 {
+    font-family: "Raleway", sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px; }
+  body main .contPres {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 200px; }
+    body main .contPres video {
+      width: 400px;
+      margin: 30px;
+      padding: 30px; }
+    body main .contPres .contPresupuesto {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0; }
+      body main .contPres .contPresupuesto .h4 {
+        font-family: "Raleway", sans-serif;
+        font-size: 2rem;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 100px; }
+      body main .contPres .contPresupuesto .presupuesto {
+        font-size: 20px;
+        width: 500px;
+        text-align: justify;
+        margin: 20px;
+        padding: 20px;
+        background-image: url("../imgs/marmol.jpg");
+        border: 2px solid #123D6B; }
+        @media (min-width: 351px) and (max-width: 516px) {
+          body main .contPres .contPresupuesto .presupuesto {
+            width: 300px;
+            font-size: 15px; } }
+        @media (min-width: 0px) and (max-width: 350px) {
+          body main .contPres .contPresupuesto .presupuesto {
+            width: 200px;
+            font-size: 15px; } }
+      body main .contPres .contPresupuesto a {
+        font-size: 1rem;
+        padding-right: 0px;
+        text-decoration: none; }
+        body main .contPres .contPresupuesto a:hover {
+          color: #123D6B; }
+  body footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #123D6B;
+    background-image: url("../imgs/marmol.jpg");
+    height: 10vh;
+    padding: 20px;
+    margin-top: 100px;
+    border-top: 2px solid #123D6B; }
+    @media (min-width: 0px) and (max-width: 920px) {
+      body footer {
+        flex-direction: column; } }
+    @media (min-width: 0px) and (max-width: 517px) {
+      body footer div {
+        display: none; } }
+
+body main .h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 50px; }
+
+body main .productos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  grid-row-gap: 50px; }
+  @media (min-width: 517px) and (max-width: 980px) {
+    body main .productos {
+      grid-template-columns: repeat(3, 1fr); } }
+  @media (min-width: 351px) and (max-width: 516px) {
+    body main .productos {
+      grid-template-columns: repeat(2, 1fr); } }
+  @media (min-width: 0px) and (max-width: 350px) {
+    body main .productos {
+      grid-template-columns: repeat(1, 1fr); } }
+  body main .productos .productCont {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    body main .productos .productCont .prodImgs {
+      border: 2px solid #123D6B;
+      width: 200px;
+      height: 300px;
+      object-fit: cover; }
+      @media (min-width: 0px) and (max-width: 980px) {
+        body main .productos .productCont .prodImgs {
+          width: 150px;
+          height: 200px; } }
+    body main .productos .productCont .productDes {
+      font-family: "Amatic SC", cursive;
+      color: black;
+      font-size: 2rem;
+      margin-top: 10px; }
+    body main .productos .productCont .sinStock {
+      color: grey;
+      border: 1px solid grey;
+      padding: 5px;
+      margin-bottom: 10px; }
+    body main .productos .productCont .btn-prod {
+      color: grey;
+      font-weight: bold;
+      font-size: 1rem;
+      padding: 10px;
+      font-family: "Raleway", sans-serif; }
+
+body main .subtitle {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  padding-bottom: 20px; }
+
+body main .formCont {
+  display: flex;
+  justify-content: center; }
+  body main .formCont .form {
+    background-image: url("../imgs/marmol.jpg");
+    width: 600px;
+    padding: 20px;
+    font-size: 20px;
+    color: #123D6B;
+    text-align: center; }
+    body main .formCont .form a {
+      font-size: 1rem;
+      padding-right: 0px;
+      text-decoration: none; }
+      body main .formCont .form a:hover {
+        color: #123D6B; }
+    body main .formCont .form .option {
+      padding-right: 10px; }
+
+body main .aboutCont {
+  display: flex;
+  justify-content: center; }
+  @media (min-width: 0px) and (max-width: 980px) {
+    body main .aboutCont {
+      align-items: center;
+      flex-direction: column; } }
+  body main .aboutCont .bigLogo {
+    height: 500px; }
+    @media (min-width: 351px) and (max-width: 980px) {
+      body main .aboutCont .bigLogo {
+        width: 300px;
+        height: 300px; } }
+    @media (min-width: 0px) and (max-width: 350px) {
+      body main .aboutCont .bigLogo {
+        width: 200px;
+        height: 200px; } }
+  body main .aboutCont .aboutUs {
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    color: #123D6B;
+    height: 500px;
+    width: 600px;
+    text-align: justify;
+    background-image: url("../imgs/marmol.jpg");
+    padding: 20px; }
+    @media (min-width: 0px) and (max-width: 980px) {
+      body main .aboutCont .aboutUs {
+        width: auto;
+        font-size: 18px; } }
+
+.errCont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 600px; }
+  .errCont .error {
+    font-family: "Raleway", sans-serif;
+    font-size: 20px; }

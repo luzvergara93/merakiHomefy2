@@ -1,0 +1,42 @@
+body{ 
+    main {
+
+        .subtitle {
+            text-align: center;
+            font-family: $main-font;
+            padding-bottom: 20px;
+
+        }
+
+        .formCont {
+            display: flex;
+            justify-content: center;
+
+            .form {
+                background-image: $background-img;
+                width: 600px;
+                padding: 20px;
+                font-size: 20px;
+                color: map-get($map: $colors, $key: main);
+                text-align: center;
+
+                a {
+                    font-size: 1rem;
+                    padding-right: 0px;
+                    text-decoration: none;
+
+                    &:hover{
+                        color: map-get($map: $colors, $key: main);
+                    }
+                    
+                }
+
+                .option {
+                    padding-right: 10px;
+                }
+
+            }
+            
+        }
+    }
+}
