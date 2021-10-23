@@ -15,7 +15,10 @@ const aromas = [
 new producto(1, 'imgs/aromas/aroma1.jpg', 'Difusor tapa madera', 'madera', 1200),
 new producto(2, 'imgs/aromas/aroma2.jpg' , 'Dispenser para jabon', 'clear', 800),
 new producto(3, 'imgs/aromas/aroma3.jpg', 'Perfumina Tilo', 'vino', 600),
-new producto(4, 'imgs/aromas/aroma4.jpg' ,'Vela aromatica', 'blanco', 300),
+new producto(4, 'imgs/aromas/aroma4.jpg' ,'Vela aromatica', 'Blanco', 300),
+new producto(5, 'imgs/aromas/aroma5.jpg' ,'Repuesto Difusor', 'Surtido', 600),
+new producto(6, 'imgs/aromas/aroma6.jpg' ,'Difusor Vidrio', 'Clear', 500),
+new producto(7, 'imgs/aromas/aroma7.jpg' ,'Frasco con Vela', 'Blanco', 300),
 ]
 
 

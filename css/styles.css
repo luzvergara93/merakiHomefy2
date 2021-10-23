@@ -171,6 +171,15 @@ body main .h1 {
   text-align: center;
   padding: 50px; }
 
+body main #contenedorAromas {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-left: 50px; }
+  body main #contenedorAromas .card {
+    margin: 50px;
+    background-color: transparent;
+    border: 0; }
+
 body main .productos {
   display: grid;
   grid-template-columns: repeat(4, 1fr);

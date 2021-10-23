@@ -10,10 +10,9 @@ body {
         }
 
         #contenedorAromas {
-            display: flex;
-            flex-direction: row;
-            width: 100%;
-            justify-content: space-around;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            margin-left: 50px;
         
             .card {
                 margin: 50px;
