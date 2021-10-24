@@ -1,0 +1,32 @@
+body {
+    #buttons {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 300px;
+        margin-left: 300px;
+        margin-top: 100px;
+
+        .btn-gen {
+            width: 180px;
+          }
+      }
+      
+      
+      #photos{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 50px;
+        margin-left: 100px;
+        margin-top: 80px;
+        
+        #photo{
+            width: 500px;
+            height: 400px;
+            object-fit: cover;
+            border: 2px solid #123D6B;
+          
+          }
+      
+      }
+      
+}
