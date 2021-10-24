@@ -179,6 +179,10 @@ body main #contenedorAromas {
     margin: 50px;
     background-color: transparent;
     border: 0; }
+    body main #contenedorAromas .card .btn-primary {
+      background-color: #123D6B;
+      border: #123D6B;
+      color: #BA985D; }
 
 body main .productos {
   display: grid;
