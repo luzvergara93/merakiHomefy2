@@ -1,12 +1,21 @@
 body {
 
+    .cartBtn{
+        background-color: map-get($map: $colors, $key: secondary);
+        border: map-get($map: $colors, $key: secondary);
+        margin-right: 10px;
+    
+            #cart {
+                width: 30px;
+            }
+    }
     main {
         .h1 {
             font-family: $main-font;
             font-size: 3rem;
             font-weight: bold;
             text-align: center;
-            padding: 50px;
+            padding: 30px;
         }
 
         #contenedorAromas {
@@ -19,16 +28,20 @@ body {
                 background-color: transparent;
                 border: 0;
 
+
                 .btn-primary{
                     background-color: map-get($map: $colors, $key: main);
                     border: map-get($map: $colors, $key: main);
                     color: map-get($map: $colors, $key: secondary);
+
+                    &:hover {
+                        background-color: map-get($map: $colors, $key: secondary);
+                        color: map-get($map: $colors, $key: main);
+                    }
                 }
             }
         }
 
-
-    
         .productos {
             display: grid;
             grid-template-columns: repeat(4, 1fr);
@@ -64,27 +77,6 @@ body {
         
                 }
 
-                .productDes {
-                    font-family: $secondary-font;
-                    color: black;
-                    font-size: 2rem;
-                    margin-top:10px;
-                }
-
-                .sinStock {
-                    color: grey;
-                    border: 1px solid grey;
-                    padding: 5px;
-                    margin-bottom: 10px;
-                }
-
-                .btn-prod {
-                    color: grey;
-                    font-weight: bold;
-                    font-size: 1rem;
-                    padding: 10px;
-                    font-family: $main-font;
-                }
             }
         }
     }

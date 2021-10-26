@@ -164,12 +164,19 @@ body {
       body footer div {
         display: none; } }
 
+body .cartBtn {
+  background-color: #BA985D;
+  border: #BA985D;
+  margin-right: 10px; }
+  body .cartBtn #cart {
+    width: 30px; }
+
 body main .h1 {
   font-family: "Raleway", sans-serif;
   font-size: 3rem;
   font-weight: bold;
   text-align: center;
-  padding: 50px; }
+  padding: 30px; }
 
 body main #contenedorAromas {
   display: grid;
@@ -183,6 +190,9 @@ body main #contenedorAromas {
       background-color: #123D6B;
       border: #123D6B;
       color: #BA985D; }
+      body main #contenedorAromas .card .btn-primary:hover {
+        background-color: #BA985D;
+        color: #123D6B; }
 
 body main .productos {
   display: grid;
@@ -211,22 +221,6 @@ body main .productos {
         body main .productos .productCont .prodImgs {
           width: 150px;
           height: 200px; } }
-    body main .productos .productCont .productDes {
-      font-family: "Amatic SC", cursive;
-      color: black;
-      font-size: 2rem;
-      margin-top: 10px; }
-    body main .productos .productCont .sinStock {
-      color: grey;
-      border: 1px solid grey;
-      padding: 5px;
-      margin-bottom: 10px; }
-    body main .productos .productCont .btn-prod {
-      color: grey;
-      font-weight: bold;
-      font-size: 1rem;
-      padding: 10px;
-      font-family: "Raleway", sans-serif; }
 
 body main .subtitle {
   text-align: center;
@@ -292,12 +286,15 @@ body main .aboutCont {
     font-family: "Raleway", sans-serif;
     font-size: 20px; }
 
+body h2 {
+  text-align: center; }
+
 body #buttons {
   display: flex;
   justify-content: space-between;
   margin-right: 300px;
   margin-left: 300px;
-  margin-top: 100px; }
+  margin-top: 50px; }
   body #buttons .btn-gen {
     width: 180px; }
 

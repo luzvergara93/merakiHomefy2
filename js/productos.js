@@ -1,38 +1,46 @@
 //constructor para los productos
 
 class producto {
-    constructor (id, img, nombre, color, precio) {
+    constructor (id, categoria, img, nombre, color, precio) {
     this.id = id;
+    this.categoria = categoria;
     this.img = img;
     this.nombre = nombre;
     this.color = color;
     this.precio = precio; 
+    
     }
 }
 
 //array productos para aromas
-const aromas = [
-    new producto(1, 'imgs/aromas/aroma1.jpg', 'Difusor tapa madera', 'madera', 1200),
-    new producto(2, 'imgs/aromas/aroma2.jpg' , 'Dispenser para jabon', 'clear', 800),
-    new producto(3, 'imgs/aromas/aroma3.jpg', 'Perfumina Tilo', 'vino', 600),
-    new producto(4, 'imgs/aromas/aroma4.jpg' ,'Vela aromatica', 'Blanco', 300),
-    new producto(5, 'imgs/aromas/aroma5.jpg' ,'Repuesto Difusor', 'Surtido', 600),
-    new producto(6, 'imgs/aromas/aroma6.jpg' ,'Difusor Vidrio', 'Clear', 500),
-    new producto(7, 'imgs/aromas/aroma7.jpg' ,'Frasco con Vela', 'Blanco', 300),
-]
-
-const deco = [
-    new producto(1, 'imgs/deco/deco1.jpg', 'Envase Cookies', 'Estampado', 600),
-    new producto(2, 'imgs/deco/deco2.jpg', 'Portacubiertos Marmol', 'Marmol', 550),
-    new producto(3, 'imgs/deco/deco3.jpg', 'Bandeja Marmol', 'Marmol', 880),
-    new producto(4, 'imgs/deco/deco4.jpg', 'Mate Simil Cuero', 'Beige', 600),
-    new producto(5, 'imgs/deco/deco5.jpg', 'Portarretratos Metal', 'Plata', 700),
-    new producto(6, 'imgs/deco/deco6.jpg', 'Portarretratos Madera', 'Madera', 500),
-    new producto(7, 'imgs/deco/deco7.jpg', 'Caja de Te ISABEL', 'Blanco', 900),
-    new producto(8, 'imgs/deco/deco8.jpg', 'Mantel Rosario', 'Manteca', 600),
-    new producto(9, 'imgs/deco/deco9.jpg', 'Fanal Luciernaga', 'Dorado', 500),
-    new producto(10, 'imgs/deco/deco10.jpg', 'Combo baño', 'Vison', 1100),
-
+const productos = [
+    new producto(1, 'aromas', 'imgs/aromas/aroma1.jpg', 'Difusor tapa madera', 'madera', 1200),
+    new producto(2, 'aromas', 'imgs/aromas/aroma2.jpg' , 'Dispenser para jabon', 'clear', 800),
+    new producto(3, 'aromas', 'imgs/aromas/aroma3.jpg', 'Perfumina Tilo', 'vino', 600),
+    new producto(4, 'aromas', 'imgs/aromas/aroma4.jpg' ,'Vela aromatica', 'Blanco', 300),
+    new producto(5, 'aromas', 'imgs/aromas/aroma5.jpg' ,'Repuesto Difusor', 'Surtido', 600),
+    new producto(6, 'aromas', 'imgs/aromas/aroma6.jpg' ,'Difusor Vidrio', 'Clear', 500),
+    new producto(7,  'aromas','imgs/aromas/aroma7.jpg' ,'Frasco con Vela', 'Blanco', 300),
+    new producto(8, 'aromas', 'imgs/deco/deco1.jpg', 'Envase Cookies', 'Estampado', 600),
+    new producto(9, 'deco','imgs/deco/deco2.jpg', 'Portacubiertos Marmol', 'Marmol', 550),
+    new producto(10, 'deco', 'imgs/deco/deco3.jpg', 'Bandeja Marmol', 'Marmol', 880),
+    new producto(11, 'deco', 'imgs/deco/deco4.jpg', 'Mate Simil Cuero', 'Beige', 600),
+    new producto(12, 'deco', 'imgs/deco/deco5.jpg', 'Portarretratos Metal', 'Plata', 700),
+    new producto(13, 'deco', 'imgs/deco/deco6.jpg', 'Portarretratos Madera', 'Madera', 500),
+    new producto(14, 'deco', 'imgs/deco/deco7.jpg', 'Caja de Te ISABEL', 'Blanco', 900),
+    new producto(15, 'deco', 'imgs/deco/deco8.jpg', 'Mantel Rosario', 'Manteca', 600),
+    new producto(16, 'deco', 'imgs/deco/deco9.jpg', 'Fanal Luciernaga', 'Dorado', 500),
+    new producto(17, 'deco', 'imgs/deco/deco10.jpg', 'Combo baño', 'Vison', 1100),
+    new producto(18, 'espejos', 'imgs/espejos/espejo1.jpg', 'Espejo Flor', 'Beige', 1800),
+    new producto(19, 'espejos', 'imgs/espejos/espejo2.jpg', 'Espejo Metal', 'Plata', 1900),
+    new producto(20, 'espejos', 'imgs/espejos/espejo3.jpg', 'Espejo Alaska', 'Blanco', 2500),
+    new producto(21, 'espejos', 'imgs/espejos/espejo4.jpg', 'Espejo Mimbre', 'Beige', 1900),
+    new producto(22, 'espejos', 'imgs/espejos/espejo5.jpg', 'Espejo Carla', 'Bronce', 1300),
+    new producto(23, 'sale', 'imgs/sale/sale1.jpg', 'Reloj Grand Hotel', 'Madera', 500),
+    new producto(24, 'sale', 'imgs/sale/sale2.jpg', 'Cesto Uganda', 'Mimbre', 700),
+    new producto(25, 'sale', 'imgs/sale/sale3.jpg', 'Pie de Maceta Hierro', 'Negro', 900),
+    new producto(26, 'sale', 'imgs/sale/sale4.jpg', 'Fanal Metalico', 'Plata', 600),
+    new producto(27, 'sale', 'imgs/sale/sale5.jpg', 'Combo maceta + fanal', 'Rose Gold', 800),
 ]
 
 // creo las imagenes
@@ -41,7 +49,9 @@ const contenedor = document.getElementById("contenedorAromas");
 
 const mostrarProductos = (array) => {
 
-            array.forEach((producto) => {
+    contenedor.innerHTML = ''
+
+            array.forEach( (producto) => {
                 const div = document.createElement('div');
                 div.className = "card"
                 div.style = "width: 15rem"
@@ -65,7 +75,8 @@ const mostrarProductos = (array) => {
             });
 }
 
-mostrarProductos(aromas);
+
+mostrarProductos(productos);
 
 
 let carrito = [];
@@ -93,7 +104,7 @@ const renderizarCarrito = () => {
     const carritoSinDuplicados = [...new Set(carrito)];
 
     carritoSinDuplicados.forEach((item) => {
-        const miItem = aromas.filter((itemAromas) => {
+        const miItem = productos.filter((itemAromas) => {
             return itemAromas.id === parseInt(item);
         });
     
@@ -136,7 +147,7 @@ const calcularTotal = () => {
     
     carrito.forEach((item) => {
         
-        const miItem = aromas.filter((itemBaseDatos) => {
+        const miItem = productos.filter((itemBaseDatos) => {
             return itemBaseDatos.id === parseInt(item);
         });
         total = total + miItem[0].precio;
@@ -159,3 +170,28 @@ cargarCarritoLocalStorage();
 
 window.onload = renderizarCarrito();
 window.onload = calcularTotal();
+
+/////////////// filtrar por categoria ////////
+
+
+const filtroAromas = productos.filter(function(element){
+    return element.categoria == 'aromas';
+  });
+
+const filtroDeco = productos.filter(function(element){
+    return element.categoria == 'deco';
+  });
+
+const filtroEspejos = productos.filter(function(element){
+    return element.categoria == 'espejos';
+  });
+
+const filtroSale = productos.filter(function(element){
+    return element.categoria == 'sale';
+  });
+
+
+
+
+
+
