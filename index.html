@@ -41,11 +41,7 @@
                 <a class="nav-link a" href="inspiration.html">Inspiration</a>
               </li>
             </ul>
-            <form class="d-flex">
             
-              <input class="form-control me-2" type="search" placeholder="Buscar producto" aria-label="Search">
-              <button class="btn-gen" type="submit"><a class="search color--secondary" href="error.html"> Buscar </a></button>
-            </form>
           </div>
         </div>
       </nav>
@@ -67,6 +63,7 @@
         </div>
     </section>
     <section>
+
 
 <!-- Carousel  -->
 
@@ -117,6 +114,36 @@
   </section>
 </main>
 
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Carrito de Compras</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          <!-- Contenedor para el carrito-->
+                    <div class="container">
+                      <div class="row">
+                          <div id="items" class="col-sm-4 row"></div>
+                          <div class="col-sm-12">
+                              <h2>Carrito</h2>
+                              <ul id="carrito" class="list-group"></ul>
+                              <hr>
+                              <p class="text-right">Total: $<span id="total"></span></p>
+                          </div>
+                      </div>
+                    </div>
+      </div>
+      <!-- Modal para el carrito-->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary">Finalizar compra</button>
+      </div>
+    </div>
+  </div>
+</div>
 <!-- Footer -->
 <footer> 
         <div>Suscribite a nuestro Newsletter!

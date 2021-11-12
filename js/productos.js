@@ -191,7 +191,12 @@ const filtroSale = productos.filter(function(element){
   });
 
 
+  ///// buscar productos
 
+//   let busqueda = document.getElementById('datoIngresado').value;
 
+//   const buscado = productos.filter(function(element){
+//     return element.nombre == busqueda;
+//   });
 
-
+  

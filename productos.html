@@ -47,8 +47,7 @@
             <button type="button" class="btn btn-gen cartBtn" data-bs-toggle="modal" data-bs-target="#exampleModal">
               <img src="imgs/cart.png" id="cart">
             </button>
-            <input id="datoIngresado" class="form-control me-2" type="search" placeholder="Buscar producto" aria-label="Search">
-            <button id="searchBtn" class="btn-gen" type="submit"><a class="search color--secondary"> Buscar </a></button>
+  
           </form>
         </div>
       </div>
@@ -66,6 +65,7 @@
     <!-- Productos -->
 
     <div id="buttons"> 
+      <button class="btn-gen" onclick="mostrarProductos(productos)" > Ver todo </button>
       <button class="btn-gen" onclick="mostrarProductos(filtroAromas)" > Aromas </button>
       <button class="btn-gen" onclick="mostrarProductos(filtroDeco)"> Deco </button>
       <button class="btn-gen" onclick="mostrarProductos(filtroEspejos)"> Espejos </button>
